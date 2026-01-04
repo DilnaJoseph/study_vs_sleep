@@ -38,9 +38,9 @@ Custom survey dataset (data.csv) containing responses from students about their:
 
 1. Data Preprocessing
 
-Encoding: Ordinal mapping for categorical variables (e.g., "Poor" → 1, "Excellent" → 5)
-Cleaning: Removed timestamp, handled missing values
-Feature Selection: Correlation-based selection (threshold: 0.05)
+  - Encoding: Ordinal mapping for categorical variables (e.g., "Poor" → 1, "Excellent" → 5)
+  - Cleaning: Removed timestamp, handled missing values
+  - Feature Selection: Correlation-based selection (threshold: 0.05)
 
 2. Exploratory Data Analysis (EDA)
 
