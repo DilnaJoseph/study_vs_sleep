@@ -6,9 +6,11 @@ This project analyzes how sleep hours, study hours, and stress levels affect a s
 Using exploratory data analysis (EDA) and a regression model, we aim to answer a popular student dilemma:
 
 ```Do all-nighters actually help, or does sleep matter more than we think?```
+
 🎯 Objectives
 
    - Predict student exam scores using:
+     
       - Sleep Hours
       - Sleep difficulty
       - Sleep Quality
@@ -19,18 +21,21 @@ Using exploratory data analysis (EDA) and a regression model, we aim to answer a
       - Physical activity
       - Study Hours
       - Stress Level
+        
   - Analyze relationships between sleep, study habits, stress, and performance
   - Evaluate model performance using standard regression metrics
 
 📊 Dataset
-Source
+
 Custom survey dataset (data.csv) containing responses from students about their:
+
   - Sleep patterns (duration, quality, difficulties)
   - Study habits and academic stress
   - Lifestyle factors (caffeine, exercise, screen time)
   - Academic performance (self-reported grades)
 
 🔬 Methodology
+
 1. Data Preprocessing
 
 Encoding: Ordinal mapping for categorical variables (e.g., "Poor" → 1, "Excellent" → 5)
@@ -44,8 +49,9 @@ EDA was performed to identify patterns and trends, including:
   - Distribution analysis (box plots, violin plots)
   - Cross-tabulation of sleep vs. performance
   - Statistical summaries by sleep/stress groups
-  - 
+   
 3. Model Training
+
 Trained and compared 7 regression models:
 
   - Linear Regression (baseline)
@@ -57,6 +63,7 @@ Trained and compared 7 regression models:
   - R² Score (test & cross-validation)
   - Mean Absolute Error (MAE)
   - Prediction accuracy (within ±0.5, ±1.0 grades)
+
     
 Performance Summary
   - The model achieves a reasonable R², indicating good explanatory power.
